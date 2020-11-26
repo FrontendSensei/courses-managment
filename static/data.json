@@ -1,0 +1,51 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Docker",
+    "price": "100",
+    "date": "2020-02-01",
+    "description": "Lorem ipsum sit dolor amet"
+  },
+  "2": {
+    "id": 2,
+    "name": "Elm",
+    "price": "5000",
+    "date": "2020-10-06",
+    "description": "Lorem ipsum sit dolor amet"
+  },
+  "3": {
+    "id": 3,
+    "name": "Nuxt.js",
+    "price": "50",
+    "date": "2019-07-03",
+    "description": "Lorem ipsum sit dolor amet"
+  },
+  "4": {
+    "id": 4,
+    "name": "Vue.js",
+    "price": "2000",
+    "date": "2020-09-12",
+    "description": "Lorem ipsum sit dolor amet"
+  },
+  "5": {
+    "id": 5,
+    "name": "Node.js",
+    "price": "900",
+    "date": "2021-01-10",
+    "description": "Lorem ipsum sit dolor amet"
+  },
+  "6": {
+    "id": 6,
+    "name": "Laravel",
+    "price": "500",
+    "date": "2020-10-07",
+    "description": "Lorem ipsum sit dolor amet"
+  },
+  "7": {
+    "id": 7,
+    "name": "Python",
+    "price": "90",
+    "date": "2020-05-03",
+    "description": "Lorem ipsum sit dolor amet"
+  }
+}

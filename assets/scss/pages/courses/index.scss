@@ -1,0 +1,100 @@
+.courses {
+  &-page {
+    padding: 20px 0;
+  }
+
+  &__btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: .5rem .7rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: .5rem;
+    vertical-align: middle;
+    border: 0;
+    background-color: #1f1f1f;
+    transition: .2s ease-in-out;
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: #6c7e8e;
+      &:hover {
+        background-color: #6c7e8e;
+      }
+    }
+
+    &--add {
+      padding-right: 2rem;
+      background: url('~assets/img/plus.svg') calc(100% - .6rem) 50% / 1rem no-repeat;
+    }
+
+    &--delete,
+    &--show {
+      width: 2.2rem;
+      height: 2.2rem;
+      border-radius: 50%;
+    }
+    &--delete {
+      background: url('~assets/img/trash.svg') center / 1rem no-repeat;
+    }
+    &--show {
+      background: url('~assets/img/eye.svg') center / 1rem no-repeat;
+    }
+
+    &--blue {
+      background-color: #195a92;
+      &:hover {
+        background-color: #0e5492;
+      }
+    }
+    &--red {
+      background-color: #b13030;
+      &:hover {
+        background-color: #a32424;
+      }
+    }
+  }
+
+  &-sort {
+    &-panel {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 1rem;
+
+      &__input {
+        &:checked + label {
+          background-color: #272727;
+        }
+      }
+    }
+  }
+
+  &-list {
+    margin-top: 1rem;
+
+    &__head {
+      display: flex;
+      padding: .8rem;
+    }
+
+    &__item {
+      display: flex;
+      align-items: center;
+      padding: .8rem;
+      margin: 0 0 .5rem;
+      border-radius: .5rem;
+      background-color: #0e0e0e;
+    }
+    &__col {
+      &--3 {
+        width: 25%;
+      }
+      &--content-center {
+        text-align: center;
+      }
+    }
+  }
+}
+
+@import 'item';

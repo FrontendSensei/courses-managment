@@ -1,0 +1,24 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 0 15px;
+  display: flex;
+
+  &__link {
+    color: #fff;
+    padding: 15px;
+    text-decoration: none;
+    transition: .2s ease-in-out;
+
+    &:hover {
+      background-color: #1f1f1f;
+    }
+
+    &.active {
+      color: #ececec;
+      background-color: #272727;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.course {
+  &-page {
+    padding: 20px 0;
+  }
+
+  &__form {
+    margin-top: 1rem;
+  }
+
+  &-form {
+    &__label {
+      margin: 0 0 0 .75rem;
+    }
+    &__input {
+      width: 100%;
+      padding: .5rem;
+      margin: .25rem 0 1rem 0;
+      border: 0;
+      color: #fff;
+      background-color: #1f1f1f;
+    }
+    &__btn {
+      background-color: #272727;
+    }
+  }
+}
